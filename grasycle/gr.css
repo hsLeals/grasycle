@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, rgb(0, 0, 0) 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;    
+}
+.menu{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 35px 150px;
+    position: fixed;
+    width: 100%;
+}
+.hi{
+    display: none;
+    color:#64a19d ;
+    font-size: 15px;
+    padding: 10px 10px;
+    outline: 1px solid #64a19d;
+    border-radius: 0.25rem;
+}
+.hi i{
+    margin-left: 5px;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.menu li:hover{
+    color: rgba(255, 255, 255, 0.75);
+}
+.menu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+.htxt{
+    /* background-color: yellowgreen; */
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 195px 0;
+}
+.htxt h1{
+    font-size: 110px;
+    letter-spacing: 10px;
+    color: gainsboro
+}
+.htxt p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+}
+.htxt a{
+    display: inline-block;
+    text-decoration: none;
+    color: snow;
+    padding: 20px 30px;
+    background-color: #64a19d;
+    border-radius: 0.25rem;
+    margin-top: 50px;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.htxt a:hover{
+    background-color: #558985;
+}
+.ipad{
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    text-align: center;
+}
+.ptxt {
+    /* background-color: yellowgreen; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 110px;
+}
+.ptxt h1{
+    color: snow;
+}
+.ptxt a{
+    color: #64a19d;
+}
+.ptxt p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.ipad img{
+    margin-top: 40px;
+    width: 80%;
+    vertical-align: middle;
+}
+.line{
+    padding: 150px 0 25px 0;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line img{
+    width: 55%;
+
+}
+.sstxt{
+    width: 25%;
+    text-align: center;
+    border-left: 8px solid #64a19d;
+    line-height: 20px;
+}
+.sstxt p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.dordlu{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.da{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.da img{
+    width: 50%;
+    height: 400px;
+}
+.dtxt{
+    width: 50%;
+    text-align: center;
+    height: 400px;
+    background-color: black;
+    padding: 150px 50px;
+}
+.dtxt h1{
+    color: snow;
+}
+.dtxt p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mail{
+    margin-top: 100px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgb(0, 0, 0) 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+.mtxt{
+    color: snow;
+}
+.mtxt i{
+    font-size: 30px;
+}
+.mtxt h1{
+    font-size: 40px;
+}
+.form{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    border-radius: 1mm;
+    border: none;
+    width: 40%;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.form button{
+    width: 150px;
+    padding: 23px;
+    border-radius: 1mm;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    background-color: #64a19d;
+    opacity: 0.7;
+}
+.adres{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px;
+}
+.adem{
+    width: 31%;
+    background-color: snow;
+    border-radius: 0.25rem;
+    border-bottom: 4px solid #64a19d;
+    text-align: center;
+    padding: 30px 0;
+}
+.adem i{
+    color: #64a19d;
+    margin-bottom: 10px;
+}
+.adem hr{
+    border: none;
+    width: 14%;
+    margin: auto;
+    height: 2px;
+    background-color: #c8c9ca;
+    margin-top: 20px;
+}
+.adem p:last-child{
+    color: #a0a2a0;
+    margin-top: 30px;
+}
+.adem a{
+    display: inline-block;
+    color: #50817e;
+    margin-top: 30px;
+}
+.icons{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 650px;
+}
+.icons i{
+    padding: 15px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* .icons i{
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
+    background: #666;
+    color: #fff;
+    border-radius: 0.8em; 
+} */
+.icons i:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.cr{
+    width: 100%;
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    color: #808078;
+}
+@media (max-width: 786px){
+    .menu ul{
+        display: none;
+    }
+    .menu a{
+        color: black;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .menu {
+        padding: 23px 0px;
+        background-color: snow;
+    }
+    .hi{
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+    }
+    .htxt{
+        width: 90%;
+    }
+    .htxt h1{
+        font-size: 40px;
+    }
+    .htxt p{
+        width: 100%;
+    }
+    .ptxt {
+        width: 90%;
+    }
+    .ipad img{
+        margin-top: 100px;
+    }
+    .line{
+        display: block;
+        text-align: center;
+    }
+    .line img{
+        width: 85%;
+    }
+    .sstxt{
+        border: none;
+        margin: auto;
+        width: 80%;
+    }
+    .sstxt h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .sstxt p{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .dordlu {
+        width: 90%;
+    }
+    .dtxt {
+        width: 100%;
+        padding: 30px 10px;
+        height: 200px;
+    }
+    .da img{
+        width: 100%;
+        height: 250px;
+    }
+    #ikinci{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .mail{
+
+        padding: 150px 0;
+    }
+    .mtxt h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .form{
+        width: 100%;
+        /* background-color: blueviolet; */
+        justify-content: space-around;
+    }
+    .form input{
+        width: 60%;
+        margin-left: 0px;
+    }
+    .form button{
+        width: 30%;
+        margin-left: 0px;
+    }
+    .adres{
+        padding: 50px 0;
+        flex-wrap: wrap;
+    }
+    .adem{
+        margin-bottom: 20px;
+        width: 85%;
+    }
+    .icons{
+        padding: 0 80px;
+    }
+    .icons i{
+        font-size: 15px;
+    }
+}
